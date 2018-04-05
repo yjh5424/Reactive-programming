@@ -14,6 +14,24 @@ observeOn(AndroidSchedulers.mainThread()).
 //네트워크 통신은 메인쓰레드에서 진행할수없으므로 헷갈리면 안된다. 
  </code>
 
+ ### rx, retrofit 를 이용한 네트워크 통신 예제  
+
+ <pre>
+
+    private void login(String id, String password) {
+        Service service = Connector.HttpService();
+        service.login(id, password).subscribeOn(Schedulers.io()).
+                observeOn(AndroidSchedulers.mainThread()).
+                subscribe(auth -> {
+                    Log.d("token",auth.getToken());
+                    Log.d("refreshToken",auth.getRefreshToken());
+                },throwable -> {
+                    //오류
+                });
+    }
+
+ </pre>
+
 ## Observable이 작동 할 스케줄러 지정
 3. ![screenshot](http://reactivex.io/documentation/operators/images/schedulers.png)
 
