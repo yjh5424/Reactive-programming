@@ -17,9 +17,9 @@ observeOn(AndroidSchedulers.mainThread()).
 ## Observable이 작동 할 스케줄러 지정
 3. ![screenshot](http://reactivex.io/documentation/operators/images/schedulers.png)
 
-* 황색 : 옵저브   
-* 파란색 : 서브스크라이브
-* 핑크색 : 옵저브 
+* 황색 : Observable   
+* 파란색 : Subscribe
+* 핑크색 : Observable 
 
 
 
