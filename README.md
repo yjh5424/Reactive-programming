@@ -1,2 +1,1 @@
-# Rx-Android  
-Rx Java, Android에 대한 설명
+Rx Java, Android, Observable, stream, Subject, Subscriber 에 대한 설명
