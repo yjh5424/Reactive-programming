@@ -42,11 +42,10 @@ subscriber.onCompleted();
 위의 결과는 ANDROID가 나올것이다. 하지만 여기 단계에서는  결과값은 나오지 않는다.   
 .map으로 결과값을 바꾸듯이 **새로운 방향을 만들어 데이터가 흐르는 길을 만든다.** 물론 여기서도 .map 연산자 말고도 **flatmap,map,buffer** 등의 연산자가 있고 각각의 쓰임과 특징이있다.  
 
-### 3. 내가 관심이있는 것을 구독하여 사용한다. 
-이제 내가 원하는 결과가 나오는 흐름의 방향을 하나를 구독한다. 
+### 3. 관잘차가 관심이있는 것을 구독하여 사용한다. 
+이제 관잘차가 원하는 결과가 나오는 흐름의 방향을 하나를 구독한다. 
 이것을 **Subscribe** 라고한다.   
 여기서는 **스트림 방향의 대한 결과를 가지고 어떤것을 하는 단계**이다.  
-
 
 <pre>
 ex) observable.subscribe(new Subscriber< String >() {
@@ -77,6 +76,7 @@ ex) observable.subscribe(new Subscriber< String >() {
 <pre>
 ex)observable.subscribe(s-> 필요한 작업);
 </pre>  
+
 
 
 
