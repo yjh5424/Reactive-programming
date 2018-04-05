@@ -1,4 +1,4 @@
-# Rx가 안드로이드 쓰레드에서 처리되는 과정   
+# Rx가 안드로이드 쓰레드에서 처리되는 과정 
  ### 1. .subscribeOn() stream을 시작하는 observable의 쓰레드 스케쥴러를 변경한다.
  <code>
  subscribeOn(Schedulers.io()).  
@@ -16,6 +16,10 @@ observeOn(AndroidSchedulers.mainThread()).
 
 ## Observable이 작동 할 스케줄러 지정
 3. ![screenshot](http://reactivex.io/documentation/operators/images/schedulers.png)
+
+* 황색 : 옵저브   
+* 파란색 : 서브스크라이브
+* 핑크색 : 옵저브 
 
 
 
