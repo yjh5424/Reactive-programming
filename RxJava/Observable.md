@@ -17,5 +17,7 @@ Observable은 말그래도 관찰 가능한이다. 어떤 관찰자가
 에러가 발생했을때 알려준다. 에러가 발생하면 onNext, onComplete 이벤트를 실행하지 않는다. 
 
 
-### Observalbe를 리턴해주는 팩토리 함수
----
+### Observalbe 생성  
+Observable 생성할 때는 직접 인스턴스를 생성하지 않고 정적 팩토리함수를 호출한다. 
+
+
