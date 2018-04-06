@@ -8,7 +8,9 @@
 ## 관찰자의 역할?
 ----
 데이터가 흘러가는 흐름을 관찰한다. 즉 스트림을 관찰한다고 볼 수 있다. 
-스트림은(**Subject**) 관찰이 가능해서 **Observable** 라고 불린다.    
+스트림은(**Subject**) 관찰이 가능해서 **Observable** 라고 불린다.  
+나중에 Subject 개념은 나중에 차가운 Observable, 뜨거운 Observable 바꿔줄 수 있다.  
+이 부분은 RxJava 부분에서 나중에 설명하겠다. 
 
 ## 스트림의 처리과정 
 ---- 
@@ -76,9 +78,11 @@ ex) observable.subscribe(new Subscriber< String >() {
 
 <pre>
 ex)observable.subscribe(s-> 필요한 작업);
-</pre>  
+</pre>    
 
+----
 
+## 대충 함수형 프로그램밍이 처리되는 느낌을 설명 했습니다. 좀 더 디테일한 부분은 각각의 RxJava, RxAnroid 에서 나름의 정리를 하도록 하겠습니다!.
 
 
 
