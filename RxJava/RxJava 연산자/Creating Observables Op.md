@@ -12,3 +12,7 @@
 http://reactivex.io/documentation/operators.html 문서 참고
 
 ## 2. Create  
+
+
+
+**Just 와 Create 의 차이점?**
