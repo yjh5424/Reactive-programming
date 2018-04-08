@@ -30,9 +30,11 @@ public class FlatMapExample {
 
 
         //observable를 리턴해서 MathObservable 인자로 넘겨줌
-        Observable<Integer> sumObservable=Observable.just(0)
+        Observable<String> sumObservable=Observable.just(0)
                 .flatMap(i ->Observable.range(1,9))
-                .to(flatMapObservable-> MathObservable.sumInt(flatMapObservable));
+                .to(flatMapObservable-> MathObservable.sumInt(flatMapObservable)
+                .map(sum -> "총합은 "+sum));
+
         sumObservable.subscribe(sum->System.out.println(sum));
 
 
