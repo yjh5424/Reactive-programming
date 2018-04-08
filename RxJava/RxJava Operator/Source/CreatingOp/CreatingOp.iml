@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="rxjava-2.1.12" level="project" />
     <orderEntry type="library" name="reactive-streams-1.0.0.final" level="project" />
+    <orderEntry type="library" name="rxjava2-extensions-0.18.9" level="project" />
   </component>
 </module>

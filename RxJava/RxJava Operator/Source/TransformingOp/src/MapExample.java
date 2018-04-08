@@ -20,7 +20,6 @@ public class MapExample {
 
     }
 
-
     //Integer를 받아서 String 값을 리턴
     public static Function<Integer,String> getStringToInt(){
         Function<Integer,String> function= integer-> "string 변환"+integer;
