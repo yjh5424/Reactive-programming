@@ -35,8 +35,8 @@
       <file leaf-file-name="FlatMapExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TransformingOp/src/FlatMapExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="258">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,24 +99,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="Observables_Operator_Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CreatingOp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Observables_Operator_Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CreatingOp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Observables_Operator_Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransformingOp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Observables_Operator_Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransformingOp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="Observables_Operator_Example" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -247,12 +229,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34750265" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34750265" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -345,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TransformingOp/src/FlatMapExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="258">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
