@@ -24,5 +24,5 @@ Observable 생성할 때는 직접 인스턴스를 생성하지 않고 정적 �
 
 ## RxJava 1.x 과 RxJava 2.x 차이  
 RxJava 1.x 에서는 Observalbe로만 스트림을 만들어줬지만    
-RxJava 2.x 에서는 Maybe, Flowable, Obserable 3가지 경우로 나눠서 스트림을 지정해준다. 
+RxJava 2.x 에서는 Maybe, Flowable, Observable 3가지 경우로 나눠서 스트림을 지정해준다. 
 

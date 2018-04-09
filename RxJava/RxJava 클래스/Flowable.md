@@ -1,6 +1,4 @@
 # Flowable
-
-
 Rxjava 2부터 도입
 
 ## 참고자료

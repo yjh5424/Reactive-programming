@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="rxjava-2.1.12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../rxjava-2.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../reactive-streams-1.0.0.final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../rxjava2-extensions-0.18.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

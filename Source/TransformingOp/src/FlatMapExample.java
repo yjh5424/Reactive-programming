@@ -22,20 +22,20 @@ public class FlatMapExample {
         //observable를 리턴해서 MathObservable 인자로 넘겨줌
         int result=0; //초기값
         Observable<String> sumObservable=Observable.just(result)
-                .flatMap(num -> Observable.range(1,9)
+                .flatMap(num -> Observable.range(1,10)
                 .to(flatMapObservable-> MathObservable.sumInt(flatMapObservable)
                 .map(sum -> "총합은 "+(sum+result))));
         sumObservable.subscribe(sum->System.out.println(sum));
 
+
         System.out.println("----------------------");
+
         //구구단
         int dan=3;
         Observable<String> guguDan=Observable.just(dan)
                 .flatMap(num->Observable.range(1,9)
                         .map(row-> num+"*"+row+"="+row*num));
-
         guguDan.subscribe(System.out::println);
-
 
 
     }
