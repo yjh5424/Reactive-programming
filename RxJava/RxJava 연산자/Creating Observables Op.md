@@ -18,8 +18,6 @@ just는 사용하자마자 이벤트가 발생하지만 create 함수는
 **create 사용할 때 주의할 점** 
 
 
-
-
 ## 사진출처 
 http://reactivex.io/documentation/operators.html 문서 참고
 
