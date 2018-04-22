@@ -10,9 +10,11 @@ public class ReduceExample {
         //Maybe 데이터를 하나 혹은 0개 발행
 
 
-        //곱하기 연산
-        Integer[] values={0,1};
-        int count=10;
+        //팩토리얼
+        Maybe<Integer> observable=Observable.range(1,4)
+                .reduce((num1,num2)->num1*num2);
+
+        observable.subscribe(System.out::println);
 
     }
 }
