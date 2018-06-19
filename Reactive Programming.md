@@ -22,11 +22,12 @@
 
 ##### 스트림위에 데이터가 흘러가는것을 이벤트라 한다. 
 
-<pre>
-ex)  Observable< String > observable=Observable.create(subscriber -> {
-subscriber.onNext("android");  
-subscriber.onCompleted();  
-</pre>     
+```
+ex)  
+Observable< String > observable=Observable.create(subscriber -> {
+    subscriber.onNext("android");  
+    subscriber.onCompleted();
+```
 
 onNext 는 "android" 값을 데이터흐름에 넣어준다는 뜻이고 onCompleted는 이제 데이터흐름에 값을 더 이상 안넣고 종료하겠다는 뜻이다. **(즉 관찰을 그만한다.)**  
 암튼 여기서는 .create() 생성하였지만 생성연산자는 **defer,just,Range** 등 다양한 방식이있고 각각의 쓰임과 특징이있다.  
