@@ -3,4 +3,4 @@
 일대다(one-to-many) 의존성을 정의한다.
 
 ### 제 레포중에 옵저버 패턴 정리한 글 링크입니다.   
-https://github.com/yjh5424/Kotlin/blob/master/Pattern/src/Observer.kt)
+https://github.com/yjh5424/Kotlin/blob/master/Pattern/src/ObserverExample.kt
