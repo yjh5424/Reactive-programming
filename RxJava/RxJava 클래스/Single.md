@@ -18,12 +18,12 @@ single.subscribe(System.out::println);
 결과 : Hello
 </pre>
 
-Obserable 하고 똑같이 사용하면되고 단지 주위할 점은 Single로 **여러개의 데이터가 발행**되면 오류가 뜨니간 이점은 조심해야된다.  
+Obserable 하고 똑같이 사용하면되고 단지 주위할 점은 Single로 **여러개의 데이터가 발행**하면 오류가 뜨니간 이점은 조심해야된다.  
 
 
 ## Single 클래스 활용
 
 1. Obserable에서 Single 객체로 변환 
-2. 
+//추가예정
 
 ## 참고자료
